@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <nav>
+                <p class="brand"><strong>Catálogo de Flores</strong></p>
+                <ul>
+                    <li><a href="#catalog">Catálogo</a></li>
+                    <li><a href="#about">Introdução</a></li>
+                    <li><a href="#features">Cuidados</a></li>
+                    <button>Login</button>
+                </ul>
+            </nav>
+            <div class="header-block">
+                <div class="text">
+                    <h2>Bem-vindo</h2>
+                    <p>ao nosso catálogo! Escolha sua flor favorita e descubra como cuidar dela.</p>
+
+                </div>
+                <img src="images/Spider (1).png" alt="flor">
+            </div>
+        </div>
+    </header>
+    <section class="catalog" id="catalog">
+        <div class="content">
+            <div class="title-wrapper-catalog">
+                <p>Ache oque você procura</p>
+                <h3>Catálogo</h3>
+            </div>
+            <div class="filter-card">
+                <input type="text" class="search-input" placeholder="Escolha sua flor favorita!">
+                <button class="search-button">Search</button>
+            </div>
+            <div class="card-wrapper">
+
+                <div class="card-item" data-cientifico="Lycoris radiata" data-origem="Ásia" data-altura="30 a 60 cm"
+                    data-epoca="Outono" data-ciclo="Perene (bulbo)" data-luminosidade="Sol pleno ou meia-sombra"
+                    data-toxicidade="🚨 Altamente Tóxica" data-dificuldade="Moderado"
+                    data-rega="Prefere substrato arenoso e muito bem drenado. As regas devem ser moderadas durante o crescimento e o florescimento, mas suspensas durante o período de dormência no verão para não apodrecer os bulbos."
+                    data-significado="Despedida, reencarnação, memórias perdidas e o ciclo da vida e da morte. Na cultura asiática, é frequentemente associada ao 'outro lado' e usada para guiar os mortos.">
+                    <img src="images/Lírio-aranha.jpg" alt="Lírio-aranha">
+                    <div class="card-content">
+                        <h3>Lírio-aranha</h3>
+                        <p>Pétalas finas e longos estames vermelhos que lembram as pernas de uma aranha.</p>
+                        <button type="button">Saiba mais</button>
+                    </div>
+                </div>
+
+                <div class="card-item" data-cientifico="Fuchsia hybrida" data-origem="Américas e Nova Zelândia"
+                    data-altura="60 a 150 cm" data-epoca="Primavera e Verão" data-ciclo="Perene"
+                    data-luminosidade="Meia-sombra" data-toxicidade="✅ Segura" data-dificuldade="Moderado"
+                    data-rega="Substrato rico em matéria orgânica, solto e aerado. Exige regas frequentes para manter o solo sempre úmido, mas nunca encharcado. Gosta de alta umidade do ar."
+                    data-significado="Graça, elegância, bom gosto e amor confiante.">
+                    <img src="images/Brinco-de-princesa.jpg" alt="Brinco-de-princesa">
+                    <div class="card-content">
+                        <h3>Brinco-de-princesa</h3>
+                        <p>Flores pendentes, com formato de sino e cores vibrantes e contrastantes.</p>
+                        <button type="button">Saiba mais</button>
+                    </div>
+                </div>
+
+                <div class="card-item" data-cientifico="Dahlia pinnata" data-origem="México" data-altura="30 a 150 cm"
+                    data-epoca="Verão e Outono" data-ciclo="Perene (tubérculo)" data-luminosidade="Sol pleno"
+                    data-toxicidade="⚠️ Tóxica" data-dificuldade="Fácil a Moderado"
+                    data-rega="Substrato fértil, rico em húmus e bem drenado. As regas devem ser abundantes no verão (sempre na base da planta, evitando molhar as folhas e flores para evitar fungos)."
+                    data-significado="Compromisso, dignidade, força interior e laços eternos.">
+                    <img src="images/Dália.jpg" alt="Dália">
+                    <div class="card-content">
+                        <h3>Dália</h3>
+                        <p>Flores exuberantes de diversas cores e tamanhos, com pétalas geometricamente perfeitas.</p>
+                        <button type="button">Saiba mais</button>
+                    </div>
+                </div>
+
+                <div class="card-item" data-cientifico="Heliconia rostrata" data-origem="América do Sul e Central"
+                    data-altura="100 a 300 cm" data-epoca="Ano todo (em climas quentes)" data-ciclo="Perene"
+                    data-luminosidade="Meia-sombra ou sol pleno" data-toxicidade="✅ Segura"
+                    data-dificuldade="Fácil (em climas tropicais)"
+                    data-rega="O substrato deve ser úmido e muito rico em matéria orgânica. As regas devem ser regulares e generosas, pois é uma planta tropical que adora água e muita umidade."
+                    data-significado="Fertilidade, juventude eterna, forte atração e vitalidade.">
+                    <img src="images/Helicônia.jpg" alt="Helicônia">
+                    <div class="card-content">
+                        <h3>Helicônia</h3>
+                        <p>Brácteas firmes e coloridas pendentes em formato de bico de pássaro.</p>
+                        <button type="button">Saiba mais</button>
+                    </div>
+                </div>
+
+                <div class="card-item" data-cientifico="Anthurium andraeanum" data-origem="Colômbia e Equador"
+                    data-altura="30 a 90 cm" data-epoca="Ano todo" data-ciclo="Perene"
+                    data-luminosidade="Meia-sombra (não tolera sol direto)" data-toxicidade="🚨 Altamente Tóxica"
+                    data-dificuldade="Fácil"
+                    data-rega="Substrato poroso, leve e com excelente drenagem (idealmente uma mistura com fibra de coco e casca de pinus). Regas moderadas, deixando a camada superior do solo secar antes da próxima rega."
+                    data-significado="Hospitalidade, abundância, luxo e felicidade no amor.">
+                    <img src="images/antúrio.jpg" alt="Antúrio">
+                    <div class="card-content">
+                        <h3>Antúrio</h3>
+                        <p>Folha modificada em formato de coração e brilhante, abrigando a verdadeira flor central.</p>
+                        <button type="button">Saiba mais</button>
+                    </div>
+                </div>
+
+                <div class="card-item" data-cientifico="Chrysanthemum morifolium" data-origem="Ásia (China e Japão)"
+                    data-altura="30 a 90 cm" data-epoca="Outono e Inverno"
+                    data-ciclo="Perene (frequentemente cultivada como anual, 90-120 dias)" data-luminosidade="Sol pleno"
+                    data-toxicidade="⚠️ Tóxica" data-dificuldade="Fácil"
+                    data-rega="Substrato comum, fértil e com boa drenagem. Regas frequentes para manter o solo úmido; a planta murcha rapidamente se faltar água."
+                    data-significado="Alegria, otimismo, longevidade e fidelidade.">
+                    <img src="images/Crisântemo.jpg" alt="Crisântemo">
+                    <div class="card-content">
+                        <h3>Crisântemo</h3>
+                        <p>Flores densas e abundantes, muito tradicionais em vasos e arranjos florais.</p>
+                        <button type="button">Saiba mais</button>
+                    </div>
+                </div>
+
+                <div class="card-item" data-cientifico="Anemone coronaria" data-origem="Região do Mediterrâneo"
+                    data-altura="20 a 40 cm" data-epoca="Inverno e Primavera" data-ciclo="Perene (tubérculo)"
+                    data-luminosidade="Sol pleno ou meia-sombra" data-toxicidade="⚠️ Tóxica" data-dificuldade="Moderado"
+                    data-rega="Substrato leve, fofo e muito bem drenado (tubérculos apodrecem facilmente com excesso de água). Rega constante durante o crescimento e floração, reduzindo drasticamente quando entra em dormência."
+                    data-significado="Fragilidade, antecipação, amor efêmero ou abandonado (segundo a mitologia grega) e proteção contra o mal.">
+                    <img src="images/Anêmona.jpg" alt="Anêmona">
+                    <div class="card-content">
+                        <h3>Anêmona</h3>
+                        <p>Flores delicadas com centro escuro bem marcado e pétalas finas.</p>
+                        <button type="button">Saiba mais</button>
+                    </div>
+                </div>
+
+                <div class="card-item" data-cientifico="Paphiopedilum spp." data-origem="Ásia" data-altura="20 a 40 cm"
+                    data-epoca="Inverno e Primavera" data-ciclo="Perene" data-luminosidade="Luz indireta (sombra)"
+                    data-toxicidade="✅ Segura" data-dificuldade="Difícil"
+                    data-rega="Exige substrato próprio para orquídeas terrestres (mistura de casca de pinus fina, esfagno e carvão). O substrato deve ser mantido consistentemente úmido, sem encharcar."
+                    data-significado="Beleza exótica, capricho, sedução e requinte.">
+                    <img src="images/Orquídea Sapatinho.jpg" alt="Orquídea Sapatinho">
+                    <div class="card-content">
+                        <h3>Orquídea Sapatinho</h3>
+                        <p>Apresenta a pétala inferior modificada em um formato exótico de bolsa.</p>
+                        <button type="button">Saiba mais</button>
+                    </div>
+                </div>
+
+                <div class="card-item" data-cientifico="Amaranthus caudatus" data-origem="América do Sul"
+                    data-altura="90 a 150 cm" data-epoca="Verão e Outono"
+                    data-ciclo="Anual (ciclo completo de 90 a 120 dias)" data-luminosidade="Sol pleno"
+                    data-toxicidade="✅ Segura" data-dificuldade="Fácil"
+                    data-rega="Gosta de solo fértil e bem drenado. As regas devem ser regulares, mantendo o solo úmido na fase de crescimento, mas suporta curtos períodos de seca quando adulta."
+                    data-significado="Imortalidade, amor duradouro e afeto que não se apaga (pois suas flores demoram muito a murchar).">
+                    <img src="images/Amaranto.jpg" alt="Amaranto">
+                    <div class="card-content">
+                        <h3>Amaranto</h3>
+                        <p>Inflorescências pendentes em tons de vermelho ou roxo com textura aveludada.</p>
+                        <button type="button">Saiba mais</button>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <div id="flower-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img id="modal-img" src="" alt="Imagem da Flor">
+
+            <div class="modal-text">
+                <h2 id="modal-title">Nome da Flor</h2>
+                <p id="modal-description" style="font-style: italic; color: #555;"></p>
+
+                <table class="flower-specs-table">
+                    <tr>
+                        <td><strong>Nome Científico:</strong></td>
+                        <td id="spec-cientifico"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Origem:</strong></td>
+                        <td id="spec-origem"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Altura:</strong></td>
+                        <td id="spec-altura"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Época:</strong></td>
+                        <td id="spec-epoca"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ciclo:</strong></td>
+                        <td id="spec-ciclo"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Luminosidade:</strong></td>
+                        <td id="spec-luminosidade"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Toxicidade:</strong></td>
+                        <td id="spec-toxicidade" style="font-weight: bold; color: red;"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dificuldade:</strong></td>
+                        <td id="spec-dificuldade"></td>
+                    </tr>
+                </table>
+
+                <div class="extra-info">
+                    <h4>Guia de Rega & Substrato:</h4>
+                    <p id="spec-rega"></p>
+                    <h4>Significado (Floriografia):</h4>
+                    <p id="spec-significado"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="tittle-wrapper-about">
+            </div>
+            <div class="about-content">
+                <div class="left">
+                    <img src="images/9331.png" alt="flor">
+                </div>
+                <div class="right">
+                    <h3>Introdução ao Universo Floral</h3>
+                    <p>As flores representam uma das mais notáveis expressões de complexidade e requinte no reino
+                        vegetal. Muito além de seu inegável valor estético, elas desempenham um papel biológico
+                        fundamental na perpetuação da vida e na manutenção do equilíbrio dos ecossistemas.
+                        Historicamente, esses elementos botânicos transcendem a natureza, consolidando-se como símbolos
+                        de elegância e vitalidade presentes na cultura, na arquitetura e no paisagismo.
+                        A verdadeira riqueza das plantas floríferas reside em sua extraordinária diversidade. Cada
+                        espécie, moldada por milênios de evolução, desenvolveu características singulares para se
+                        adaptar aos mais variados climas e regiões do globo. Desde a geometria rigorosa de suas pétalas
+                        até a sofisticação de seus ciclos de crescimento, a flora demonstra a notável capacidade da
+                        natureza de aliar forma, função e resiliência.
+                        Este catálogo foi concebido com o propósito de documentar e celebrar essa pluralidade. Através
+                        de uma compilação cuidadosa, o material oferece não apenas a contemplação visual das espécies,
+                        mas também informações técnicas e taxonômicas essenciais. O objetivo é proporcionar um
+                        entendimento aprofundado sobre as origens, as necessidades de luminosidade e os ciclos
+                        biológicos de cada planta, servindo como um guia seguro e definitivo para o estudo e o cultivo
+                        consciente.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="content">
+            <div class="title-wrapper-features">
+                <h3>Cuidados com sua flor</h3>
+            </div>
+
+            <div class="feature-card-block">
+
+                <div class="feature-card-item">
+                    <img src="images/ecologico.png" alt="features">
+                    <div class="feature-text-content">
+                        <h3>Conheça a espécie</h3>
+                        <p>Pesquise as necessidades específicas da sua flor, pois cada planta tem preferências
+                            diferentes de sol e água.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card-item">
+                    <img src="images/ecologico.png" alt="features">
+                    <div class="feature-text-content">
+                        <h3>Ajuste a luz</h3>
+                        <p>Coloque a flor no local ideal: sol pleno para as que gostam de calor, ou luz indireta
+                            (sombra) para as mais sensíveis.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card-item">
+                    <img src="images/acacia.png" alt="features">
+                    <div class="feature-text-content">
+                        <h3>Regue com moderação</h3>
+                        <p>Coloque o dedo na terra: se estiver seca, regue a base da planta; se estiver úmida, espere
+                            mais um pouco.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card-item">
+                    <img src="images/acacia.png" alt="features">
+                    <div class="feature-text-content">
+                        <h3>Use o vaso certo</h3>
+                        <p>Garanta que o vaso tenha furos no fundo para a água escorrer e use uma terra leve que não
+                            acumule água.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card-item">
+                    <img src="images/ecologico.png" alt="features">
+                    <div class="feature-text-content">
+                        <h3>Alimente a planta</h3>
+                        <p>Use um adubo para flores durante a primavera e o verão para dar os nutrientes necessários
+                            para a floração.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card-item">
+                    <img src="images/ecologico.png" alt="features">
+                    <div class="feature-text-content">
+                        <h3>Faça a limpeza</h3>
+                        <p>Corte folhas secas e flores murchas para que a planta não gaste energia e possa gerar novos
+                            brotos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="main">
+            <div class="content footer-links">
+                <div class="footer-company">
+                    <h4>Empresa</h4>
+                    <h6>Sobre</h6>
+                    <h6>Contato</h6>
+                </div>
+                <div class="footer-rental">
+                    <h4>Rental</h4>
+                    <h6>Self-Drive</h6>
+                    <h6>Chauffer-Driven</h6>
+                    <h6>Help</h6>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-icons">
+                        <img src="images/instagram.png" alt="Instagram" />
+                        <img src="images/facebook.png" alt="Facebook" />
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Nossos Contatos</h4>
+                    <h6>+55 41 988776655</h6>
+                    <h6>contato@florescatalog.com.br</h6>
+                </div>
+            </div>
+        </div>
+        <div class="last">2026</div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
