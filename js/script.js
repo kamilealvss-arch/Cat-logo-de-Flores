@@ -39,7 +39,7 @@ orderButtons.forEach(button => {
         document.getElementById('spec-toxicidade').textContent = card.getAttribute('data-toxicidade');
         document.getElementById('spec-dificuldade').textContent = card.getAttribute('data-dificuldade');
         document.getElementById('spec-rega').textContent = card.getAttribute('data-rega');
-        document.getElementById('spec-significado').textContent = card.getAttribute('data-significado');
+document.getElementById('spec-significado').textContent = card.getAttribute('data-significado');
 
         modal.classList.add('active');
     });
